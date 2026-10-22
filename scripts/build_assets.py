@@ -98,45 +98,59 @@ CARDS = [
     ("apps", "grid", "personal-apps", ["Apps for productivity and an", "organized work environment"]),
 ]
 
-TECH = [
-    ("Languages", [("MATLAB", 1), ("Python", 0)]),
-    ("Modeling", [("Bayesian Observer", 1), ("Efficient Coding", 1), ("CANN", 0), ("PyTorch", 0), ("CNN", 0)]),
-    ("Analysis", [("Dimensionality Reduction", 1), ("Structural Equation Modeling", 1),
-                  ("Hierarchical Bayesian Model Fitting", 1), ("fMRI", 0)]),
-    ("Experiments", [("Psychtoolbox", 1), ("jsPsych", 0), ("Eye Tracking", 0), ("tES", 0)]),
-    ("Automation", [("Claude Code", 0)]),
+TECH = [  # (category, advanced, basic)
+    ("Languages", ["MATLAB"], ["Python"]),
+    ("Modeling", ["Bayesian observer models", "Efficient coding"], ["CANN", "PyTorch", "CNN"]),
+    ("Analysis", ["Dimensionality reduction", "Structural equation modeling",
+                  "Hierarchical Bayesian model fitting"], ["fMRI"]),
+    ("Experiments", ["Psychtoolbox"], ["jsPsych", "Eye tracking", "tES"]),
+    ("Automation", [], ["Claude Code"]),
 ]
+# column x-positions and widths: category | advanced | basic
+COLS = (0, 160, 560)
+COL_W = (150, 380, WIDTH - 560)
+LINE, PAD = 25, 13
 
 
-def chip(c, x, y, label, advanced, size=16):
-    w = text_width(label, size, bold=advanced) + 26
-    fill, ink = (c["chip_adv"], c["chip_adv_ink"]) if advanced else (c["chip_basic"], c["chip_basic_ink"])
-    weight = ' font-weight="600"' if advanced else ""
-    return w, (f'  <rect x="{x:.1f}" y="{y}" width="{w:.1f}" height="32" rx="16" fill="{fill}"/>\n'
-               f'  <text x="{x + w / 2:.1f}" y="{y + 21.5}" text-anchor="middle" font-family="{SANS}" '
-               f'font-size="{size}"{weight} fill="{ink}">{escape(label)}</text>\n')
+def wrap(items, width, size, bold=False):
+    """Greedy-wrap items joined by ' · ' into lines that fit the column."""
+    lines, cur = [], ""
+    for it in items:
+        cand = f"{cur} · {it}" if cur else it
+        if cur and text_width(cand, size, bold) > width:
+            lines.append(cur)
+            cur = it
+        else:
+            cur = cand
+    return lines + [cur] if cur else (lines or ["—"])
 
 
 def techniques(c):
-    body, y, label_w, gap = "", 6, 140, 8
-    for name, items in TECH:
-        body += (f'  <text x="0" y="{y + 22}" font-family="{SANS}" font-size="{LABEL}" font-weight="600" '
+    dot = lambda x, y, col: f'  <circle cx="{x + 5}" cy="{y - 5}" r="4.5" fill="{col}"/>\n'
+    head_y = 18
+    body = (dot(COLS[1], head_y, c["accent"]) +
+            f'  <text x="{COLS[1] + 16}" y="{head_y}" font-family="{SANS}" font-size="{SMALL}" font-weight="600" fill="{c["accent"]}">Advanced</text>\n' +
+            dot(COLS[2], head_y, c["muted"]) +
+            f'  <text x="{COLS[2] + 16}" y="{head_y}" font-family="{SANS}" font-size="{SMALL}" font-weight="600" fill="{c["muted"]}">Basic</text>\n')
+    y = 30
+    for name, adv, basic in TECH:
+        a_lines = wrap(adv, COL_W[1], BODY, True)
+        b_lines = wrap(basic, COL_W[2], BODY)
+        n = max(len(a_lines), len(b_lines))
+        body += f'  <line x1="0" y1="{y}" x2="{WIDTH}" y2="{y}" stroke="{c["rule"]}" stroke-width="1"/>\n'
+        base = y + PAD + 17
+        body += (f'  <text x="{COLS[0]}" y="{base}" font-family="{SANS}" font-size="{BODY}" font-weight="600" '
                  f'fill="{c["ink"]}">{name}</text>\n')
-        x = label_w
-        for label, adv in items:
-            w = text_width(label, 16, bold=bool(adv)) + 26
-            if x + w > WIDTH:
-                x, y = label_w, y + 40
-            _, s = chip(c, x, y, label, adv)
-            body += s
-            x += w + gap
-        y += 50
-    # legend
-    _, s1 = chip(c, 0, y + 4, "Advanced", 1, SMALL)
-    w1 = text_width("Advanced", SMALL, True) + 26
-    _, s2 = chip(c, w1 + 8, y + 4, "Basic", 0, SMALL)
-    body += s1 + s2
-    return svg(WIDTH, y + 42, "Techniques — advanced: MATLAB, Bayesian observer models, efficient coding, "
+        for i, ln in enumerate(a_lines):
+            col = c["accent"] if adv else c["muted"]
+            body += (f'  <text x="{COLS[1]}" y="{base + i * LINE}" font-family="{SANS}" font-size="{BODY}" '
+                     f'font-weight="600" fill="{col}">{escape(ln)}</text>\n')
+        for i, ln in enumerate(b_lines):
+            body += (f'  <text x="{COLS[2]}" y="{base + i * LINE}" font-family="{SANS}" font-size="{BODY}" '
+                     f'fill="{c["body"]}">{escape(ln)}</text>\n')
+        y += 2 * PAD + 17 + (n - 1) * LINE + 6
+    body += f'  <line x1="0" y1="{y}" x2="{WIDTH}" y2="{y}" stroke="{c["rule"]}" stroke-width="1"/>\n'
+    return svg(WIDTH, y + 2, "Techniques — advanced: MATLAB, Bayesian observer models, efficient coding, "
                "dimensionality reduction, structural equation modeling, hierarchical Bayesian model fitting, "
                "Psychtoolbox; basic: Python, CANN, PyTorch, CNN, fMRI, jsPsych, eye tracking, tES, Claude Code",
                body)
@@ -150,7 +164,7 @@ def button(fn, label, icon, fill, w):
     (OUT / fn).write_text(svg(w, 28, label.replace("&amp;", "and"), body))
 
 
-SECTIONS = ["Repositories", "Education", "Research Interests", "Experiments", "Techniques",
+SECTIONS = ["Repositories", "Education", "Research Interests", "Techniques",
             "Teaching Assistant (TA)",
             "Publications & Presentations"]
 

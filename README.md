@@ -38,6 +38,11 @@ Click a card to filter repositories by label. auto-research is co-developed with
   - **Generative models (e.g., β-VAE)** — trained under a resource constraint, a single model yields both resource-optimal behavior and emergent neural representations, extending resource-constrained Bayesian observers from process models to neural models.<sup>[[6]](#references)</sup><sup>[[7]](#references)</sup><sup>[[8]](#references)</sup>
   - **CNNs** — as models inspired by the mammalian ventral visual pathway, to trace the origin of encoding biases to natural image statistics and to study how magnitude representations emerge through learning.
 
+**Experiments**
+  - **Lab experiments** — psychophysical perceptual decision-making and estimation tasks with human participants, run in a darkened room with a chin rest for controlled viewing.
+  - **Web experiments** — large-sample and longitudinal studies run on Prolific or the CSNL web experiment platform.
+  - **Stimuli** — rings, random-dot kinematograms (RDKs), rotating bars, dot arrays, and more.
+
 <details>
 <summary><b>Projects by dimension</b> (🔒 private, available on request)</summary>
 
@@ -73,16 +78,6 @@ Click a card to filter repositories by label. auto-research is co-developed with
 
 <br>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/h-experiments-dark.svg"><img alt="Experiments" src="assets/h-experiments-light.svg" width="100%"></picture>
-
-**Lab experiments** — psychophysical perceptual decision-making and estimation tasks with human participants, run in a darkened room with a chin rest for controlled viewing.
-
-**Web experiments** — large-sample and longitudinal studies run on Prolific or the CSNL web experiment platform.
-
-**Stimuli** — rings, random-dot kinematograms (RDKs), rotating bars, dot arrays, and more.
-
-<br>
-
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/h-techniques-dark.svg"><img alt="Techniques" src="assets/h-techniques-light.svg" width="100%"></picture>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/techniques-dark.svg"><img alt="Techniques — advanced: MATLAB, Bayesian observer models, efficient coding, dimensionality reduction, structural equation modeling, hierarchical Bayesian model fitting, Psychtoolbox; basic: Python, CANN, PyTorch, CNN, fMRI, jsPsych, eye tracking, tES, Claude Code" src="assets/techniques-light.svg" width="100%"></picture>
@@ -96,11 +91,11 @@ Click a card to filter repositories by label. auto-research is co-developed with
 Seoul National University
 
 <table>
-<tr><td>Fall 2026</td><td><b>Probabilistic Brain</b></td><td>M0000.002100</td></tr>
-<tr><td>Spring 2026</td><td><b>Methods in Brain and Cognitive Sciences</b></td><td>339.502</td></tr>
-<tr><td>Fall 2025</td><td><b>Brain and Cognitive Science of Vision</b></td><td>M1426.004000</td></tr>
-<tr><td>Fall 2024</td><td><b>Data Collection and Statistical Analysis for Functional MRI</b></td><td>M2480.000600</td></tr>
-<tr><td>Fall 2024</td><td><b>Brain and Cognitive Science of Consciousness</b></td><td>M1426.004100</td></tr>
+<tr><td>Fall 2026</td><td><b>Probabilistic Brain</b> <small>(M0000.002100)</small></td></tr>
+<tr><td>Spring 2026</td><td><b>Methods in Brain and Cognitive Sciences</b> <small>(339.502)</small></td></tr>
+<tr><td>Fall 2025</td><td><b>Brain and Cognitive Science of Vision</b> <small>(M1426.004000)</small></td></tr>
+<tr><td>Fall 2024</td><td><b>Data Collection and Statistical Analysis for Functional MRI</b> <small>(M2480.000600)</small></td></tr>
+<tr><td>Fall 2024</td><td><b>Brain and Cognitive Science of Consciousness</b> <small>(M1426.004100)</small></td></tr>
 </table>
 
 
