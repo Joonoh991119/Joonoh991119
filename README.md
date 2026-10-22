@@ -39,9 +39,9 @@ Click a card to filter repositories by label. auto-research is co-developed with
   - **CNNs** — as models inspired by the mammalian ventral visual pathway, to trace the origin of encoding biases to natural image statistics and to study how magnitude representations emerge through learning.
 
 **Experiments**
-  - **Lab experiments** — psychophysical perceptual decision-making and estimation tasks with human participants, run in a darkened room with a chin rest for controlled viewing.
-  - **Web experiments** — large-sample and longitudinal studies run on Prolific or the CSNL web experiment platform.
-  - **Stimuli** — rings, random-dot kinematograms (RDKs), rotating bars, dot arrays, and more.
+- **Lab experiments** — psychophysical perceptual decision-making and estimation tasks with human participants, run in a darkened room with a chin rest for controlled viewing.
+- **Web experiments** — large-sample and longitudinal studies run on Prolific or the CSNL web experiment platform.
+- **Stimuli** — rings, random-dot kinematograms (RDKs), rotating bars, dot arrays, and more.
 
 <details>
 <summary><b>Projects by dimension</b> (🔒 private, available on request)</summary>
