@@ -103,7 +103,6 @@ TECH = [  # (category, advanced, basic)
     ("Analysis", ["Dimensionality reduction", "Structural equation modeling",
                   "Hierarchical Bayesian model fitting"], ["fMRI"]),
     ("Experiments", ["Psychtoolbox"], ["jsPsych", "Eye tracking", "tES"]),
-    ("Automation", [], ["Claude Code"]),
 ]
 # column x-positions and widths: category | advanced | basic
 COLS = (0, 160, 560)
@@ -151,7 +150,7 @@ def techniques(c):
     body += f'  <line x1="0" y1="{y}" x2="{WIDTH}" y2="{y}" stroke="{c["rule"]}" stroke-width="1"/>\n'
     return svg(WIDTH, y + 2, "Techniques — advanced: MATLAB, Bayesian observer models, efficient coding, "
                "dimensionality reduction, structural equation modeling, hierarchical Bayesian model fitting, "
-               "Psychtoolbox; basic: Python, CANN, PyTorch, CNN, fMRI, jsPsych, eye tracking, tES, Claude Code",
+               "Psychtoolbox; basic: Python, CANN, PyTorch, CNN, fMRI, jsPsych, eye tracking, tES",
                body)
 
 
