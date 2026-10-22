@@ -68,10 +68,9 @@ Repositories are labeled by area — click a label to filter.
 | Size | 🔒[AR_Estimation_n51](https://github.com/Joonoh991119/AR_Estimation_n51) · 🔒[RingRepSca](https://github.com/Joonoh991119/RingRepSca) · 🔒[RingRepSca-Bayesian](https://github.com/Joonoh991119/RingRepSca-Bayesian) · 🔒[RingRepSca_SEM](https://github.com/Joonoh991119/RingRepSca_SEM) |
 | Time | 🔒[Time2Dist](https://github.com/Joonoh991119/Time2Dist) · 🔒[Time2Dist_exante](https://github.com/Joonoh991119/Time2Dist_exante) · 🔒[Time2Dist_Exp1](https://github.com/Joonoh991119/Time2Dist_Exp1) · 🔒[Time2Dist_Exp1_N12](https://github.com/Joonoh991119/Time2Dist_Exp1_N12) · 🔒[Time2Dist_Exp2](https://github.com/Joonoh991119/Time2Dist_Exp2) · 🔒[Time2Dist_Exp2_Scaling_Trajectory](https://github.com/Joonoh991119/Time2Dist_Exp2_Scaling_Trajectory) · 🔒[SD_time2dist_exp2](https://github.com/Joonoh991119/SD_time2dist_exp2) · 🔒[boec_hmc](https://github.com/Joonoh991119/boec_hmc) |
 | Numerosity | 🔒[Numerosity](https://github.com/Joonoh991119/Numerosity) · 🔒[Uncertainty](https://github.com/Joonoh991119/Uncertainty) |
+| Bayesian observer + efficient coding (BOEC) | 🔒[boec_simulator](https://github.com/Joonoh991119/boec_simulator) · [boec_review](https://github.com/Joonoh991119/boec_review) · 🔒[boec_hmc](https://github.com/Joonoh991119/boec_hmc) |
 
 </details>
-
-<sub>Projects: 🔒[boec_simulator](https://github.com/Joonoh991119/boec_simulator) · [boec_review](https://github.com/Joonoh991119/boec_review) · 🔒[boec_hmc](https://github.com/Joonoh991119/boec_hmc) — a combined Bayesian observer + efficient coding (BOEC) framework</sub>
 
 <a id="references"></a>
 <details>
