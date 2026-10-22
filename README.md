@@ -72,7 +72,7 @@ Repositories are labeled by area — click a label to filter.
 
 - **Programming** — MATLAB, Python (and, lately, a fair amount of vibe coding)
 - **Modeling** — Bayesian observer and efficient-coding models (BOEC); continuous attractor neural networks (CANN); dimensionality reduction
-- **Experiments** — behavioral experiment design with Psychtoolbox (lab) and jsPsych (web)
+- **Experiments** — behavioral experiment design with Psychtoolbox (lab) and jsPsych (web); eye tracking; transcranial electrical stimulation (tES)
 - **Automation** — [lab-management systems](https://github.com/Joonoh991119?tab=repositories&q=topic%3Alab-management) built on Claude Code
 - **Basic proficiency** — fMRI preprocessing and analysis; PyTorch
 
