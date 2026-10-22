@@ -18,12 +18,14 @@
 
 ### Repositories
 
-| | Organization | |
+Repositories are labeled by area — click a label to filter.
+
+| | Label | |
 |:-:|---|---|
-| 🔬 | [**jop-research**](https://github.com/jop-research) | Personal research — magnitude estimation, Bayesian observer and efficient-coding models |
-| 🧪 | [**csnl-lab-management**](https://github.com/csnl-lab-management) | CSNL lab tools — Claude Code marketplaces (csnl-admin, csnl-research), DeskHub |
-| 📚 | [**jop-autoresearch**](https://github.com/jop-autoresearch) | Automated research pipelines — paper crawling and scouting, reading tutors, DS_SNU |
-| 🛠 | [**jop-apps**](https://github.com/jop-apps) | Personal apps and general-purpose Claude tools |
+| 🔬 | [`personal-research`](https://github.com/Joonoh991119?tab=repositories&q=topic%3Apersonal-research) | Magnitude estimation, Bayesian observer and efficient-coding models |
+| 🧪 | [`lab-management`](https://github.com/Joonoh991119?tab=repositories&q=topic%3Alab-management) | CSNL lab tools — Claude Code marketplaces (csnl-admin, csnl-research), DeskHub |
+| 📚 | [`auto-research`](https://github.com/Joonoh991119?tab=repositories&q=topic%3Aauto-research) | Automated research pipelines — paper crawling and scouting, reading tutors, DS_SNU |
+| 🛠 | [`personal-apps`](https://github.com/Joonoh991119?tab=repositories&q=topic%3Apersonal-apps) | Personal apps and general-purpose Claude tools |
 
 ---
 
@@ -71,7 +73,7 @@
 - **Programming** — MATLAB, Python (and, lately, a fair amount of vibe coding)
 - **Modeling** — Bayesian observer and efficient-coding models (BOEC); continuous attractor neural networks (CANN); dimensionality reduction
 - **Experiments** — behavioral experiment design with Psychtoolbox (lab) and jsPsych (web)
-- **Automation** — [lab-management systems](https://github.com/csnl-lab-management) built on Claude Code
+- **Automation** — [lab-management systems](https://github.com/Joonoh991119?tab=repositories&q=topic%3Alab-management) built on Claude Code
 - **Basic proficiency** — fMRI preprocessing and analysis; PyTorch
 
 ---
