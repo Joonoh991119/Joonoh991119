@@ -1,17 +1,17 @@
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg"><img alt="Joonoh Park — Integrated M.S./Ph.D. Student, Department of Brain and Cognitive Sciences, Seoul National University; Cognitive and Systems Neuroscience Laboratory; advisor Prof. Sang-Hun Lee" src="assets/header-light.svg" width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg?v=10222235"><img alt="Joonoh Park — Integrated M.S./Ph.D. Student, Department of Brain and Cognitive Sciences, Seoul National University; Cognitive and Systems Neuroscience Laboratory; advisor Prof. Sang-Hun Lee" src="assets/header-light.svg?v=10222235" width="100%"></picture>
 
 ✉&nbsp; <a href="mailto:joonop99@snu.ac.kr">joonop99@snu.ac.kr</a> &nbsp;·&nbsp; <a href="https://snu-csnl.com">snu-csnl.com</a>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/h-repositories-dark.svg"><img alt="Repositories" src="assets/h-repositories-light.svg" width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/h-repositories-dark.svg?v=10222235"><img alt="Repositories" src="assets/h-repositories-light.svg?v=10222235" width="100%"></picture>
 
 <table>
-<tr><td width="50%"><a href="https://github.com/Joonoh991119?tab=repositories&q=topic%3Apersonal-research"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-research-dark.svg"><img alt="personal-research: experimental design, computational modeling, and analysis methods" src="assets/card-research-light.svg" width="100%"></picture></a></td><td width="50%"><a href="https://github.com/Joonoh991119?tab=repositories&q=topic%3Alab-management"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-lab-dark.svg"><img alt="lab-management: AI-powered lab management system for CSNL (private)" src="assets/card-lab-light.svg" width="100%"></picture></a></td></tr>
-<tr><td width="50%"><a href="https://github.com/Joonoh991119?tab=repositories&q=topic%3Aauto-research"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-auto-dark.svg"><img alt="auto-research: AI-powered research automation system, built with @ysys143" src="assets/card-auto-light.svg" width="100%"></picture></a></td><td width="50%"><a href="https://github.com/Joonoh991119?tab=repositories&q=topic%3Apersonal-apps"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-apps-dark.svg"><img alt="personal-apps: apps for productivity and an organized work environment" src="assets/card-apps-light.svg" width="100%"></picture></a></td></tr>
+<tr><td width="50%"><a href="https://github.com/Joonoh991119?tab=repositories&q=topic%3Apersonal-research"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-research-dark.svg?v=10222235"><img alt="personal-research: experimental design, computational modeling, and analysis methods" src="assets/card-research-light.svg?v=10222235" width="100%"></picture></a></td><td width="50%"><a href="https://github.com/Joonoh991119?tab=repositories&q=topic%3Alab-management"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-lab-dark.svg?v=10222235"><img alt="lab-management: AI-powered lab management system for CSNL (private)" src="assets/card-lab-light.svg?v=10222235" width="100%"></picture></a></td></tr>
+<tr><td width="50%"><a href="https://github.com/Joonoh991119?tab=repositories&q=topic%3Aauto-research"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-auto-dark.svg?v=10222235"><img alt="auto-research: AI-powered research automation system, built with @ysys143" src="assets/card-auto-light.svg?v=10222235" width="100%"></picture></a></td><td width="50%"><a href="https://github.com/Joonoh991119?tab=repositories&q=topic%3Apersonal-apps"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-apps-dark.svg?v=10222235"><img alt="personal-apps: apps for productivity and an organized work environment" src="assets/card-apps-light.svg?v=10222235" width="100%"></picture></a></td></tr>
 </table>
 
 Click a card to filter repositories by label. auto-research is co-developed with <a href="https://github.com/ysys143">@ysys143</a>.
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/h-education-dark.svg"><img alt="Education" src="assets/h-education-light.svg" width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/h-education-dark.svg?v=10222235"><img alt="Education" src="assets/h-education-light.svg?v=10222235" width="100%"></picture>
 
 **Integrated M.S./Ph.D.**, Brain and Cognitive Sciences, Seoul National University · 2024.03 – Present<br>
 **B.S.**, Convergent Biotechnology and Advanced Materials Science, Kyung Hee University · 2020.03 – 2024.02
@@ -19,7 +19,7 @@ Click a card to filter repositories by label. auto-research is co-developed with
 
 <br>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/h-research-interests-dark.svg"><img alt="Research Interests" src="assets/h-research-interests-light.svg" width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/h-research-interests-dark.svg?v=10222235"><img alt="Research Interests" src="assets/h-research-interests-light.svg?v=10222235" width="100%"></picture>
 
 > I study how uncertainty in the representation of absolute magnitude (e.g., size, time, numerosity) is carried into its relative representation within a context. So far, I have used computational models to predict human behavior and tested those predictions by collecting and fitting behavioral data; next, I plan to extend this work to fMRI and neural network models.
 
@@ -78,32 +78,32 @@ Click a card to filter repositories by label. auto-research is co-developed with
 
 <br>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/h-techniques-dark.svg"><img alt="Techniques" src="assets/h-techniques-light.svg" width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/h-techniques-dark.svg?v=10222235"><img alt="Techniques" src="assets/h-techniques-light.svg?v=10222235" width="100%"></picture>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/techniques-dark.svg"><img alt="Techniques — advanced: MATLAB, Bayesian observer models, efficient coding, dimensionality reduction, structural equation modeling, hierarchical Bayesian model fitting, Psychtoolbox; basic: Python, CANN, PyTorch, CNN, fMRI, jsPsych, eye tracking, tES, Claude Code" src="assets/techniques-light.svg" width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/techniques-dark.svg?v=10222235"><img alt="Techniques — advanced: MATLAB, Bayesian observer models, efficient coding, dimensionality reduction, structural equation modeling, hierarchical Bayesian model fitting, Psychtoolbox; basic: Python, CANN, PyTorch, CNN, fMRI, jsPsych, eye tracking, tES, Claude Code" src="assets/techniques-light.svg?v=10222235" width="100%"></picture>
 
 *And, lately, a fair amount of vibe coding.*
 
 <br>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/h-teaching-assistant-dark.svg"><img alt="Teaching Assistant (TA)" src="assets/h-teaching-assistant-light.svg" width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/h-teaching-assistant-dark.svg?v=10222235"><img alt="Teaching Assistant (TA)" src="assets/h-teaching-assistant-light.svg?v=10222235" width="100%"></picture>
 
 Seoul National University
 
 <table>
-<tr><td>Fall 2026</td><td><b>Probabilistic Brain</b> <small>(M0000.002100)</small></td></tr>
-<tr><td>Spring 2026</td><td><b>Methods in Brain and Cognitive Sciences</b> <small>(339.502)</small></td></tr>
-<tr><td>Fall 2025</td><td><b>Brain and Cognitive Science of Vision</b> <small>(M1426.004000)</small></td></tr>
-<tr><td>Fall 2024</td><td><b>Data Collection and Statistical Analysis for Functional MRI</b> <small>(M2480.000600)</small></td></tr>
-<tr><td>Fall 2024</td><td><b>Brain and Cognitive Science of Consciousness</b> <small>(M1426.004100)</small></td></tr>
+<tr><td>Fall 2026</td><td><b>Probabilistic Brain</b> <sub>(M0000.002100)</sub></td></tr>
+<tr><td>Spring 2026</td><td><b>Methods in Brain and Cognitive Sciences</b> <sub>(339.502)</sub></td></tr>
+<tr><td>Fall 2025</td><td><b>Brain and Cognitive Science of Vision</b> <sub>(M1426.004000)</sub></td></tr>
+<tr><td>Fall 2024</td><td><b>Data Collection and Statistical Analysis for Functional MRI</b> <sub>(M2480.000600)</sub></td></tr>
+<tr><td>Fall 2024</td><td><b>Brain and Cognitive Science of Consciousness</b> <sub>(M1426.004100)</sub></td></tr>
 </table>
 
 
 <br>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/h-publications-presentations-dark.svg"><img alt="Publications & Presentations" src="assets/h-publications-presentations-light.svg" width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/h-publications-presentations-dark.svg?v=10222235"><img alt="Publications & Presentations" src="assets/h-publications-presentations-light.svg?v=10222235" width="100%"></picture>
 
 **Conference poster**
 
 **Park, J.**, & Lee, S.-H. (2026). The fate of uncertainty in the transformation from absolute to relative magnitude. *CBrain 2026*.<br>
-<a href="https://joonoh991119.github.io/csnl-posters-2026/"><img src="assets/btn-poster.svg" alt="Poster" height="26"></a>&nbsp;<a href="https://github.com/Joonoh991119/2026CBrain_TheFateUncertainty"><img src="assets/btn-code.svg" alt="Data and code" height="26"></a>
+<a href="https://joonoh991119.github.io/csnl-posters-2026/"><img src="assets/btn-poster.svg?v=10222235" alt="Poster" height="26"></a>&nbsp;<a href="https://github.com/Joonoh991119/2026CBrain_TheFateUncertainty"><img src="assets/btn-code.svg?v=10222235" alt="Data and code" height="26"></a>
