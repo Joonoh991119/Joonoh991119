@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="430" height="112" viewBox="0 0 430 112" role="img" aria-label="personal-apps: Apps for productivity and an organized work environment">
+  <rect x="0.5" y="0.5" width="429" height="111" rx="10" fill="#F4F7FA" stroke="#C9D3DF"/>
+  <rect x="0.5" y="16" width="4" height="80" fill="#1D4E89"/>
+  <g transform="translate(20 20)" fill="none" stroke="#1D4E89" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="7" height="7" rx="1.5"/><rect x="11" y="2" width="7" height="7" rx="1.5"/><rect x="2" y="11" width="7" height="7" rx="1.5"/><rect x="11" y="11" width="7" height="7" rx="1.5"/></g>
+  <text x="50" y="36" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#1D4E89">personal-apps</text>
+  <text x="410" y="36" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" fill="#5B6B7F">browse ↗</text>
+  <text x="22" y="66" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" fill="#2E3A4B">Apps for productivity and an</text>
+  <text x="22" y="88" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" fill="#2E3A4B">organized work environment</text>
+</svg>
