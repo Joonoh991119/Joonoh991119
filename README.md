@@ -50,12 +50,12 @@ Repositories are labeled by area — click a label to filter.
 
 **Computational models**
 - *Cognitive models*
-  - Bayesian observer models — prior knowledge and uncertainty
-  - Information-theoretic models — limited resources of the brain
+  - **Bayesian observer models** — humans combine noisy measurements with prior knowledge to produce Bayes-optimal behavior.
+  - **Information-theoretic models** — humans produce optimal behavior within the limits of their neural resources (efficient coding).
 - *Neural models*
-  - Task-optimized RNNs — temporal dynamics (e.g., accumulation and drift of working memory), context-dependent neural alignment<sup>[[1]](#references)</sup><sup>[[3]](#references)</sup><sup>[[4]](#references)</sup>
-  - Generative models (e.g., β-VAE) — neural basis for resource-optimal Bayesian models<sup>[[5]](#references)</sup><sup>[[6]](#references)</sup><sup>[[7]](#references)</sup>
-  - CNNs — emergence of brain-like representations
+  - **Task-optimized RNNs** — to explain temporal dynamics, such as the accumulation and drift of working memory, and how neural representations align across contexts.<sup>[[1]](#references)</sup><sup>[[3]](#references)</sup><sup>[[4]](#references)</sup>
+  - **Generative models (e.g., β-VAE)** — to learn compressed representations under a resource limit, giving resource-optimal Bayesian models a neural substrate.<sup>[[5]](#references)</sup><sup>[[6]](#references)</sup><sup>[[7]](#references)</sup>
+  - **CNNs** — to gain insight into the computation from the representations that emerge through learning.
 
 <details>
 <summary><b>Projects by dimension</b> &nbsp;<sub>🔒 = private, available on request</sub></summary>
