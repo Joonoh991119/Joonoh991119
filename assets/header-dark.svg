@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="880" height="180" viewBox="0 0 880 180" role="img" aria-label="Joonoh Park — Integrated M.S./Ph.D. Student, Department of Brain and Cognitive Sciences, Seoul National University; Cognitive and Systems Neuroscience Laboratory; advisor Prof. Sang-Hun Lee">
-  <rect x="0" y="12" width="5" height="160" fill="#6FA8DC"/>
-  <text x="28" y="38" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" font-weight="600" letter-spacing="2.4" fill="#F0A35E">INTEGRATED M.S./PH.D. STUDENT</text>
-  <text x="26" y="92" font-family="Georgia, 'Times New Roman', Times, serif" font-size="52" fill="#E6EDF3">Joonoh Park</text>
-  <line x1="28" y1="112" x2="860" y2="112" stroke="#30363D" stroke-width="1"/>
-  <text x="28" y="140" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="18" font-weight="600" fill="#E6EDF3">Department of Brain and Cognitive Sciences, Seoul National University</text>
-  <text x="28" y="166" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17" fill="#C9D1D9">Cognitive and Systems Neuroscience Laboratory<tspan fill="#8B98A8">  ·  </tspan>Advisor: Prof. Sang-Hun Lee</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="176" viewBox="0 0 880 176" role="img" aria-label="Joonoh Park — Integrated M.S./Ph.D. Student, Department of Brain and Cognitive Sciences, Seoul National University; Cognitive and Systems Neuroscience Laboratory; advisor Prof. Sang-Hun Lee">
+  <rect x="0" y="10" width="5" height="160" fill="#6FA8DC"/>
+  <text x="28" y="36" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17" font-weight="600" fill="#F0A35E">Integrated M.S./Ph.D. Student</text>
+  <text x="26" y="88" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="44" font-weight="600" fill="#E6EDF3">Joonoh Park</text>
+  <line x1="28" y1="108" x2="860" y2="108" stroke="#30363D" stroke-width="1"/>
+  <text x="28" y="136" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17" font-weight="600" fill="#E6EDF3">Department of Brain and Cognitive Sciences, Seoul National University</text>
+  <text x="28" y="162" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17" fill="#C9D1D9">Cognitive and Systems Neuroscience Laboratory<tspan fill="#8B98A8">  ·  </tspan>Advisor: Prof. Sang-Hun Lee</text>
 </svg>

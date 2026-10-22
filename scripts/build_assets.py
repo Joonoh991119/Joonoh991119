@@ -22,6 +22,10 @@ SANS = "-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, s
 SERIF = "Georgia, 'Times New Roman', Times, serif"
 WIDTH = 880
 
+# One type scale for every asset (SVGs render at ~0.93x in the README column):
+# name 44 · section heading 22 · label 17 bold · body 17 · small 15. No tracking, no all-caps.
+NAME, HEAD, LABEL, BODY, SMALL = 44, 22, 17, 17, 15
+
 _FONTS = {}
 
 
@@ -43,26 +47,26 @@ def write(name, mode, content):
 
 
 def header(c):
-    body = f'''  <rect x="0" y="12" width="5" height="160" fill="{c['accent']}"/>
-  <text x="28" y="38" font-family="{SANS}" font-size="13" font-weight="600" letter-spacing="2.4" fill="{c['accent2']}">INTEGRATED M.S./PH.D. STUDENT</text>
-  <text x="26" y="92" font-family="{SERIF}" font-size="52" fill="{c['ink']}">Joonoh Park</text>
-  <line x1="28" y1="112" x2="{WIDTH - 20}" y2="112" stroke="{c['rule']}" stroke-width="1"/>
-  <text x="28" y="140" font-family="{SANS}" font-size="18" font-weight="600" fill="{c['ink']}">Department of Brain and Cognitive Sciences, Seoul National University</text>
-  <text x="28" y="166" font-family="{SANS}" font-size="17" fill="{c['body']}">Cognitive and Systems Neuroscience Laboratory<tspan fill="{c['muted']}">  ·  </tspan>Advisor: Prof. Sang-Hun Lee</text>
+    body = f'''  <rect x="0" y="10" width="5" height="160" fill="{c['accent']}"/>
+  <text x="28" y="36" font-family="{SANS}" font-size="{LABEL}" font-weight="600" fill="{c['accent2']}">Integrated M.S./Ph.D. Student</text>
+  <text x="26" y="88" font-family="{SANS}" font-size="{NAME}" font-weight="600" fill="{c['ink']}">Joonoh Park</text>
+  <line x1="28" y1="108" x2="{WIDTH - 20}" y2="108" stroke="{c['rule']}" stroke-width="1"/>
+  <text x="28" y="136" font-family="{SANS}" font-size="{LABEL}" font-weight="600" fill="{c['ink']}">Department of Brain and Cognitive Sciences, Seoul National University</text>
+  <text x="28" y="162" font-family="{SANS}" font-size="{BODY}" fill="{c['body']}">Cognitive and Systems Neuroscience Laboratory<tspan fill="{c['muted']}">  ·  </tspan>Advisor: Prof. Sang-Hun Lee</text>
 '''
-    return svg(WIDTH, 180, "Joonoh Park — Integrated M.S./Ph.D. Student, Department of Brain and Cognitive "
+    return svg(WIDTH, 176, "Joonoh Park — Integrated M.S./Ph.D. Student, Department of Brain and Cognitive "
                "Sciences, Seoul National University; Cognitive and Systems Neuroscience Laboratory; "
                "advisor Prof. Sang-Hun Lee", body)
 
 
 def section(c, title):
-    body = f'''  <text x="0" y="22" font-family="{SANS}" font-size="15" font-weight="700" letter-spacing="2.2" fill="{c['accent']}">{escape(title.upper())}</text>
-  <line x1="0" y1="34" x2="{WIDTH}" y2="34" stroke="{c['accent']}" stroke-width="1.5"/>
+    body = f'''  <text x="0" y="26" font-family="{SANS}" font-size="{HEAD}" font-weight="600" fill="{c['accent']}">{escape(title)}</text>
+  <line x1="0" y1="38" x2="{WIDTH}" y2="38" stroke="{c['accent']}" stroke-width="1.5"/>
 '''
-    return svg(WIDTH, 40, title, body)
+    return svg(WIDTH, 44, title, body)
 
 
-CARD_W, CARD_H = 430, 112
+CARD_W, CARD_H = 430, 118
 
 # 20x20 line icons
 ICONS = {
@@ -76,12 +80,12 @@ ICONS = {
 def card(c, icon, label, lines):
     body = f'''  <rect x="0.5" y="0.5" width="{CARD_W - 1}" height="{CARD_H - 1}" rx="10" fill="{c['card']}" stroke="{c['rule']}"/>
   <rect x="0.5" y="16" width="4" height="{CARD_H - 32}" fill="{c['accent']}"/>
-  <g transform="translate(20 20)" fill="none" stroke="{c['accent']}" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">{ICONS[icon]}</g>
-  <text x="50" y="36" font-family="{SANS}" font-size="16" font-weight="700" fill="{c['accent']}">{escape(label)}</text>
-  <text x="{CARD_W - 20}" y="36" text-anchor="end" font-family="{SANS}" font-size="13" fill="{c['muted']}">browse ↗</text>
+  <g transform="translate(20 21)" fill="none" stroke="{c['accent']}" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">{ICONS[icon]}</g>
+  <text x="50" y="37" font-family="{SANS}" font-size="{LABEL}" font-weight="700" fill="{c['accent']}">{escape(label)}</text>
+  <text x="{CARD_W - 20}" y="37" text-anchor="end" font-family="{SANS}" font-size="{SMALL}" fill="{c['muted']}">browse ↗</text>
 '''
     for i, line in enumerate(lines):
-        body += (f'  <text x="22" y="{66 + i * 22}" font-family="{SANS}" font-size="15" '
+        body += (f'  <text x="22" y="{72 + i * 24}" font-family="{SANS}" font-size="{BODY}" '
                  f'fill="{c["body"]}">{escape(line)}</text>\n')
     return svg(CARD_W, CARD_H, f"{label}: {' '.join(lines)}", body)
 
@@ -103,35 +107,35 @@ TECH = [
 ]
 
 
-def chip(c, x, y, label, advanced, size=14):
-    w = text_width(label, size, bold=advanced) + 22
+def chip(c, x, y, label, advanced, size=16):
+    w = text_width(label, size, bold=advanced) + 26
     fill, ink = (c["chip_adv"], c["chip_adv_ink"]) if advanced else (c["chip_basic"], c["chip_basic_ink"])
     weight = ' font-weight="600"' if advanced else ""
-    return w, (f'  <rect x="{x:.1f}" y="{y}" width="{w:.1f}" height="28" rx="14" fill="{fill}"/>\n'
-               f'  <text x="{x + w / 2:.1f}" y="{y + 19}" text-anchor="middle" font-family="{SANS}" '
+    return w, (f'  <rect x="{x:.1f}" y="{y}" width="{w:.1f}" height="32" rx="16" fill="{fill}"/>\n'
+               f'  <text x="{x + w / 2:.1f}" y="{y + 21.5}" text-anchor="middle" font-family="{SANS}" '
                f'font-size="{size}"{weight} fill="{ink}">{escape(label)}</text>\n')
 
 
 def techniques(c):
-    body, y, label_w, gap = "", 8, 130, 8
+    body, y, label_w, gap = "", 6, 140, 8
     for name, items in TECH:
-        body += (f'  <text x="0" y="{y + 19}" font-family="{SANS}" font-size="14" font-weight="700" '
+        body += (f'  <text x="0" y="{y + 22}" font-family="{SANS}" font-size="{LABEL}" font-weight="700" '
                  f'fill="{c["ink"]}">{name}</text>\n')
         x = label_w
         for label, adv in items:
-            w = text_width(label, 14, bold=bool(adv)) + 22
+            w = text_width(label, 16, bold=bool(adv)) + 26
             if x + w > WIDTH:
-                x, y = label_w, y + 36
+                x, y = label_w, y + 40
             _, s = chip(c, x, y, label, adv)
             body += s
             x += w + gap
-        y += 44
+        y += 50
     # legend
-    _, s1 = chip(c, 0, y + 6, "Advanced", 1, 12)
-    w1 = text_width("Advanced", 12, True) + 22
-    _, s2 = chip(c, w1 + 8, y + 6, "Basic", 0, 12)
+    _, s1 = chip(c, 0, y + 4, "Advanced", 1, SMALL)
+    w1 = text_width("Advanced", SMALL, True) + 26
+    _, s2 = chip(c, w1 + 8, y + 4, "Basic", 0, SMALL)
     body += s1 + s2
-    return svg(WIDTH, y + 40, "Techniques — advanced: MATLAB, Bayesian observer models, efficient coding, "
+    return svg(WIDTH, y + 42, "Techniques — advanced: MATLAB, Bayesian observer models, efficient coding, "
                "dimensionality reduction, structural equation modeling, hierarchical Bayesian model fitting, "
                "Psychtoolbox; basic: Python, CANN, PyTorch, CNN, fMRI, jsPsych, eye tracking, tES, Claude Code",
                body)
@@ -140,19 +144,20 @@ def techniques(c):
 def button(fn, label, icon, fill, w):
     body = f'''  <rect x="0.5" y="0.5" width="{w - 1}" height="27" rx="13.5" fill="{fill}"/>
   {icon}
-  <text x="32" y="18.5" font-family="{SANS}" font-size="13" font-weight="600" fill="#FFFFFF">{label}</text>
+  <text x="32" y="18.5" font-family="{SANS}" font-size="{SMALL}" font-weight="600" fill="#FFFFFF">{label}</text>
 '''
     (OUT / fn).write_text(svg(w, 28, label.replace("&amp;", "and"), body))
 
 
-SECTIONS = ["Repositories", "Education", "Research Interests", "Techniques", "Teaching",
+SECTIONS = ["Repositories", "Education", "Research Interests", "Experiments", "Techniques",
+            "Teaching Assistant (TA)",
             "Publications & Presentations"]
 
 if __name__ == "__main__":
     for mode, c in PALETTE.items():
         write("header", mode, header(c))
         for t in SECTIONS:
-            slug = t.lower().replace(" & ", "-").replace(" ", "-")
+            slug = t.lower().replace(" & ", "-").replace(" (ta)", "").replace(" ", "-")
             write(f"h-{slug}", mode, section(c, t))
         for key, icon, label, lines in CARDS:
             write(f"card-{key}", mode, card(c, icon, label, lines))
@@ -162,6 +167,6 @@ if __name__ == "__main__":
               '<line x1="14" y1="16.2" x2="22" y2="16.2"/><line x1="14" y1="18.6" x2="19.5" y2="18.6"/></g>')
     code = ('<g fill="none" stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">'
             '<polyline points="16,9 12,14 16,19"/><polyline points="20.5,9 24.5,14 20.5,19"/></g>')
-    button("btn-poster.svg", "Poster ↗", poster, "#1D4E89", 104)
-    button("btn-code.svg", "Data &amp; code ↗", code, "#2C7A7B", 146)
+    button("btn-poster.svg", "Poster ↗", poster, "#1D4E89", 108)
+    button("btn-code.svg", "Data &amp; code ↗", code, "#2C7A7B", 152)
     print("\n".join(sorted(p.name for p in OUT.glob("*.svg"))))

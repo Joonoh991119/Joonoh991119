@@ -1,6 +1,6 @@
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg"><img alt="Joonoh Park — Integrated M.S./Ph.D. Student, Department of Brain and Cognitive Sciences, Seoul National University; Cognitive and Systems Neuroscience Laboratory; advisor Prof. Sang-Hun Lee" src="assets/header-light.svg" width="100%"></picture>
 
-<sub>&nbsp;✉&nbsp; <a href="mailto:joonop99@snu.ac.kr">joonop99@snu.ac.kr</a> &nbsp;·&nbsp; <a href="https://snu-csnl.com">snu-csnl.com</a></sub>
+✉&nbsp; <a href="mailto:joonop99@snu.ac.kr">joonop99@snu.ac.kr</a> &nbsp;·&nbsp; <a href="https://snu-csnl.com">snu-csnl.com</a>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/h-repositories-dark.svg"><img alt="Repositories" src="assets/h-repositories-light.svg" width="100%"></picture>
 
@@ -9,12 +9,12 @@
 <tr><td width="50%"><a href="https://github.com/Joonoh991119?tab=repositories&q=topic%3Aauto-research"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-auto-dark.svg"><img alt="auto-research: AI-powered research automation system, built with @ysys143" src="assets/card-auto-light.svg" width="100%"></picture></a></td><td width="50%"><a href="https://github.com/Joonoh991119?tab=repositories&q=topic%3Apersonal-apps"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-apps-dark.svg"><img alt="personal-apps: apps for productivity and an organized work environment" src="assets/card-apps-light.svg" width="100%"></picture></a></td></tr>
 </table>
 
-<sub>Click a card to filter repositories by label · auto-research is co-developed with <a href="https://github.com/ysys143">@ysys143</a></sub>
+Click a card to filter repositories by label. auto-research is co-developed with <a href="https://github.com/ysys143">@ysys143</a>.
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/h-education-dark.svg"><img alt="Education" src="assets/h-education-light.svg" width="100%"></picture>
 
-**Integrated M.S./Ph.D.**, Brain and Cognitive Sciences, Seoul National University &nbsp;<sub>2024.03 – Present</sub><br>
-**B.S.**, Convergent Biotechnology and Advanced Materials Science, Kyung Hee University &nbsp;<sub>2020.03 – 2024.02</sub>
+**Integrated M.S./Ph.D.**, Brain and Cognitive Sciences, Seoul National University · 2024.03 – Present<br>
+**B.S.**, Convergent Biotechnology and Advanced Materials Science, Kyung Hee University · 2020.03 – 2024.02
 
 
 <br>
@@ -35,11 +35,11 @@
   - **Information-theoretic models** — humans produce optimal behavior within the limits of their neural resources (efficient coding).
 - *Neural models*
   - **Task-optimized RNNs** — to explain temporal dynamics, such as the accumulation and drift of working memory, and how neural representations align across contexts.<sup>[[1]](#references)</sup><sup>[[5]](#references)</sup><sup>[[3]](#references)</sup>
-  - **Generative models (e.g., β-VAE)** — to learn compressed representations under a resource limit, giving resource-optimal Bayesian models a neural substrate.<sup>[[6]](#references)</sup><sup>[[7]](#references)</sup><sup>[[8]](#references)</sup>
-  - **CNNs** — to gain insight into the computation from the representations that emerge through learning.
+  - **Generative models (e.g., β-VAE)** — trained under a resource constraint, a single model yields both resource-optimal behavior and emergent neural representations, extending resource-constrained Bayesian observers from process models to neural models.<sup>[[6]](#references)</sup><sup>[[7]](#references)</sup><sup>[[8]](#references)</sup>
+  - **CNNs** — as models inspired by the mammalian ventral visual pathway, to trace the origin of encoding biases to natural image statistics and to study how magnitude representations emerge through learning.
 
 <details>
-<summary><b>Projects by dimension</b> &nbsp;<sub>🔒 = private, available on request</sub></summary>
+<summary><b>Projects by dimension</b> (🔒 private, available on request)</summary>
 
 <br>
 
@@ -73,24 +73,34 @@
 
 <br>
 
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/h-experiments-dark.svg"><img alt="Experiments" src="assets/h-experiments-light.svg" width="100%"></picture>
+
+**Lab experiments** — psychophysical perceptual decision-making and estimation tasks with human participants, run in a darkened room with a chin rest for controlled viewing.
+
+**Web experiments** — large-sample and longitudinal studies run on Prolific or the CSNL web experiment platform.
+
+**Stimuli** — rings, random-dot kinematograms (RDKs), rotating bars, dot arrays, and more.
+
+<br>
+
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/h-techniques-dark.svg"><img alt="Techniques" src="assets/h-techniques-light.svg" width="100%"></picture>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/techniques-dark.svg"><img alt="Techniques — advanced: MATLAB, Bayesian observer models, efficient coding, dimensionality reduction, structural equation modeling, hierarchical Bayesian model fitting, Psychtoolbox; basic: Python, CANN, PyTorch, CNN, fMRI, jsPsych, eye tracking, tES, Claude Code" src="assets/techniques-light.svg" width="100%"></picture>
 
-<sub>And, lately, a fair amount of vibe coding.</sub>
+*And, lately, a fair amount of vibe coding.*
 
 <br>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/h-teaching-dark.svg"><img alt="Teaching" src="assets/h-teaching-light.svg" width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/h-teaching-assistant-dark.svg"><img alt="Teaching Assistant (TA)" src="assets/h-teaching-assistant-light.svg" width="100%"></picture>
 
-<sub>Teaching assistant · Seoul National University</sub>
+Seoul National University
 
 <table>
-<tr><td><code>Fall&nbsp;&nbsp;&nbsp;2026</code></td><td><b>Probabilistic Brain</b>&nbsp; <sub>M0000.002100</sub></td></tr>
-<tr><td><code>Spring 2026</code></td><td><b>Methods in Brain and Cognitive Sciences</b>&nbsp; <sub>339.502</sub></td></tr>
-<tr><td><code>Fall&nbsp;&nbsp;&nbsp;2025</code></td><td><b>Brain and Cognitive Science of Vision</b>&nbsp; <sub>M1426.004000</sub></td></tr>
-<tr><td><code>Fall&nbsp;&nbsp;&nbsp;2024</code></td><td><b>Data Collection and Statistical Analysis for Functional MRI</b>&nbsp; <sub>M2480.000600</sub></td></tr>
-<tr><td><code>Fall&nbsp;&nbsp;&nbsp;2024</code></td><td><b>Brain and Cognitive Science of Consciousness</b>&nbsp; <sub>M1426.004100</sub></td></tr>
+<tr><td>Fall 2026</td><td><b>Probabilistic Brain</b></td><td>M0000.002100</td></tr>
+<tr><td>Spring 2026</td><td><b>Methods in Brain and Cognitive Sciences</b></td><td>339.502</td></tr>
+<tr><td>Fall 2025</td><td><b>Brain and Cognitive Science of Vision</b></td><td>M1426.004000</td></tr>
+<tr><td>Fall 2024</td><td><b>Data Collection and Statistical Analysis for Functional MRI</b></td><td>M2480.000600</td></tr>
+<tr><td>Fall 2024</td><td><b>Brain and Cognitive Science of Consciousness</b></td><td>M1426.004100</td></tr>
 </table>
 
 
