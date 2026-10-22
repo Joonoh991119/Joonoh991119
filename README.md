@@ -1,26 +1,26 @@
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg?v=10230044"><img alt="Joonoh Park — Integrated M.S./Ph.D. Student, Department of Brain and Cognitive Sciences, Seoul National University; Cognitive and Systems Neuroscience Laboratory; advisor Prof. Sang-Hun Lee" src="assets/header-light.svg?v=10230044" width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg?v=10230050"><img alt="Joonoh Park — Integrated M.S./Ph.D. Student, Department of Brain and Cognitive Sciences, Seoul National University; Cognitive and Systems Neuroscience Laboratory; advisor Prof. Sang-Hun Lee" src="assets/header-light.svg?v=10230050" width="100%"></picture>
 
 ✉&nbsp; <a href="mailto:joonop99@snu.ac.kr">joonop99@snu.ac.kr</a> &nbsp;·&nbsp; <a href="https://snu-csnl.com">snu-csnl.com</a>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/h-repositories-dark.svg?v=10230044"><img alt="Repositories" src="assets/h-repositories-light.svg?v=10230044" width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/h-repositories-dark.svg?v=10230050"><img alt="Repositories" src="assets/h-repositories-light.svg?v=10230050" width="100%"></picture>
 
 <p>
-<a href="https://github.com/Joonoh991119?tab=repositories&q=topic%3Apersonal-research"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-research-dark.svg?v=10230044"><img alt="personal-research: experimental design, computational modeling, and analysis methods" src="assets/card-research-light.svg?v=10230044" width="49%"></picture></a>&nbsp;<a href="https://github.com/Joonoh991119?tab=repositories&q=topic%3Alab-management"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-lab-dark.svg?v=10230044"><img alt="lab-management: AI-powered lab management system for CSNL (private)" src="assets/card-lab-light.svg?v=10230044" width="49%"></picture></a>
+<a href="https://github.com/Joonoh991119?tab=repositories&q=topic%3Apersonal-research"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-research-dark.svg?v=10230050"><img alt="personal-research: experimental design, computational modeling, and analysis methods" src="assets/card-research-light.svg?v=10230050" width="49%"></picture></a>&nbsp;<a href="https://github.com/Joonoh991119?tab=repositories&q=topic%3Alab-management"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-lab-dark.svg?v=10230050"><img alt="lab-management: AI-powered lab management system for CSNL (private)" src="assets/card-lab-light.svg?v=10230050" width="49%"></picture></a>
 </p>
 <p>
-<a href="https://github.com/Joonoh991119?tab=repositories&q=topic%3Aauto-research"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-auto-dark.svg?v=10230044"><img alt="auto-research: AI-powered research automation system, built with @ysys143" src="assets/card-auto-light.svg?v=10230044" width="49%"></picture></a>&nbsp;<a href="https://github.com/Joonoh991119?tab=repositories&q=topic%3Apersonal-apps"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-apps-dark.svg?v=10230044"><img alt="personal-apps: apps for productivity and an organized work environment" src="assets/card-apps-light.svg?v=10230044" width="49%"></picture></a>
+<a href="https://github.com/Joonoh991119?tab=repositories&q=topic%3Aauto-research"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-auto-dark.svg?v=10230050"><img alt="auto-research: AI-powered research automation system, built with @ysys143" src="assets/card-auto-light.svg?v=10230050" width="49%"></picture></a>&nbsp;<a href="https://github.com/Joonoh991119?tab=repositories&q=topic%3Apersonal-apps"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-apps-dark.svg?v=10230050"><img alt="personal-apps: apps for productivity and an organized work environment" src="assets/card-apps-light.svg?v=10230050" width="49%"></picture></a>
 </p>
 
 Click a card to filter repositories by topic. auto-research is co-developed with <a href="https://github.com/ysys143">@ysys143</a>.
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/h-education-dark.svg?v=10230044"><img alt="Education" src="assets/h-education-light.svg?v=10230044" width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/h-education-dark.svg?v=10230050"><img alt="Education" src="assets/h-education-light.svg?v=10230050" width="100%"></picture>
 
 **Integrated M.S./Ph.D.**, Brain and Cognitive Sciences, Seoul National University · 2024.03 – Present<br>
 **B.S.**, Convergent Biotechnology and Advanced Materials Science, Kyung Hee University · 2020.03 – 2024.02
 
 
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/h-research-interests-dark.svg?v=10230044"><img alt="Research Interests" src="assets/h-research-interests-light.svg?v=10230044" width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/h-research-interests-dark.svg?v=10230050"><img alt="Research Interests" src="assets/h-research-interests-light.svg?v=10230050" width="100%"></picture>
 
 > I study how uncertainty in the representation of absolute magnitude (e.g., size, time, numerosity) is carried into its relative representation within a context. So far, I have used computational models to predict human behavior and tested those predictions by collecting and fitting behavioral data; next, I plan to extend this work to fMRI and neural network models.
 
@@ -32,12 +32,12 @@ Click a card to filter repositories by topic. auto-research is co-developed with
 
 #### Computational models
 - *Cognitive models*
-  - **Bayesian observer models** — humans combine noisy measurements with prior knowledge to produce Bayes-optimal behavior.
-  - **Information-theoretic models** — humans produce optimal behavior within the limits of their neural resources (efficient coding).
+  - **Bayesian observer models** — to explain how humans combine noisy measurements with prior knowledge to produce Bayes-optimal behavior.
+  - **Efficient-coding and rate-distortion models** — to explain how perception and behavior are optimized under limited coding capacity.
 - *Neural models*
   - **Task-optimized RNNs** — to explain temporal dynamics, such as the accumulation and drift of working memory, and how neural representations align across contexts.<sup>[[1]](#references)</sup><sup>[[3]](#references)</sup><sup>[[5]](#references)</sup>
-  - **Generative models (e.g., β-VAE)** — trained under a resource constraint, a single model yields both resource-optimal behavior and emergent neural representations, extending resource-constrained Bayesian observers from process models to neural models.<sup>[[6]](#references)</sup><sup>[[7]](#references)</sup><sup>[[8]](#references)</sup>
-  - **CNNs** — as models inspired by the mammalian ventral visual pathway, to trace the origin of encoding biases to natural image statistics and to study how magnitude representations emerge through learning.
+  - **Generative models (e.g., β-VAE)** — to obtain both resource-optimal behavior and emergent neural representations from a single model trained under a resource constraint, extending resource-constrained Bayesian observers from process models to neural models.<sup>[[6]](#references)</sup><sup>[[7]](#references)</sup><sup>[[8]](#references)</sup>
+  - **CNNs** — to trace the origin of encoding biases to natural image statistics and to study how magnitude representations emerge through learning, using models inspired by the primate ventral visual pathway.
 
 #### Experiments
 - **Lab experiments** — psychophysical perceptual decision-making and estimation tasks with human participants, run in a darkened room with a chin rest for controlled viewing.
@@ -76,14 +76,14 @@ Click a card to filter repositories by topic. auto-research is co-developed with
 
 
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/h-techniques-dark.svg?v=10230044"><img alt="Techniques" src="assets/h-techniques-light.svg?v=10230044" width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/h-techniques-dark.svg?v=10230050"><img alt="Techniques" src="assets/h-techniques-light.svg?v=10230050" width="100%"></picture>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/techniques-dark.svg?v=10230044"><img alt="Techniques — advanced: MATLAB, Bayesian observer models, efficient coding, dimensionality reduction, structural equation modeling, hierarchical Bayesian model fitting, Psychtoolbox; basic: Python, CANN, PyTorch, CNN, fMRI, jsPsych, eye tracking, tES" src="assets/techniques-light.svg?v=10230044" width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/techniques-dark.svg?v=10230050"><img alt="Techniques — advanced: MATLAB, Bayesian observer models, efficient coding, dimensionality reduction, structural equation modeling, hierarchical Bayesian model fitting, Psychtoolbox; basic: Python, CANN, PyTorch, CNN, fMRI, jsPsych, eye tracking, tES" src="assets/techniques-light.svg?v=10230050" width="100%"></picture>
 
 *And, lately, a fair amount of vibe coding.*
 
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/h-teaching-assistant-dark.svg?v=10230044"><img alt="Teaching Assistant (TA)" src="assets/h-teaching-assistant-light.svg?v=10230044" width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/h-teaching-assistant-dark.svg?v=10230050"><img alt="Teaching Assistant (TA)" src="assets/h-teaching-assistant-light.svg?v=10230050" width="100%"></picture>
 
 Seoul National University
 
@@ -97,9 +97,9 @@ Seoul National University
 
 
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/h-publications-presentations-dark.svg?v=10230044"><img alt="Publications & Presentations" src="assets/h-publications-presentations-light.svg?v=10230044" width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/h-presentations-dark.svg?v=10230050"><img alt="Presentations" src="assets/h-presentations-light.svg?v=10230050" width="100%"></picture>
 
 **Conference poster**
 
-**Park, J.**, & Lee, S.-H. (2026). The fate of uncertainty in the transformation from absolute to relative magnitude. *CBrain 2026*.<br>
-<a href="https://joonoh991119.github.io/csnl-posters-2026/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-poster-dark.svg?v=10230044"><img src="assets/btn-poster-light.svg?v=10230044" alt="Poster" height="26"></picture></a>&nbsp;<a href="https://github.com/Joonoh991119/2026CBrain_TheFateUncertainty"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-code-dark.svg?v=10230044"><img src="assets/btn-code-light.svg?v=10230044" alt="Data and code" height="26"></picture></a>
+**Park, J.**, & Lee, S.-H. (2026). *The fate of uncertainty in the transformation from absolute to relative magnitude* [Poster presentation]. CBrain 2026.<br>
+<a href="https://joonoh991119.github.io/csnl-posters-2026/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-poster-dark.svg?v=10230050"><img src="assets/btn-poster-light.svg?v=10230050" alt="Poster" height="26"></picture></a>&nbsp;<a href="https://github.com/Joonoh991119/2026CBrain_TheFateUncertainty"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-code-dark.svg?v=10230050"><img src="assets/btn-code-light.svg?v=10230050" alt="Data and code" height="26"></picture></a>

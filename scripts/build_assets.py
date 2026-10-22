@@ -166,7 +166,7 @@ def button(name, label, icon, fills, w):
 
 SECTIONS = ["Repositories", "Education", "Research Interests", "Techniques",
             "Teaching Assistant (TA)",
-            "Publications & Presentations"]
+            "Presentations"]
 
 if __name__ == "__main__":
     for mode, c in PALETTE.items():
