@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="880" height="176" viewBox="0 0 880 176" role="img" aria-label="Joonoh Park — Integrated M.S./Ph.D. Student, Department of Brain and Cognitive Sciences, Seoul National University; Cognitive and Systems Neuroscience Laboratory; advisor Prof. Sang-Hun Lee">
   <rect x="0" y="10" width="5" height="160" fill="#1D4E89"/>
-  <text x="28" y="36" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17" font-weight="600" fill="#C8691C">Integrated M.S./Ph.D. Student</text>
-  <text x="26" y="88" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="44" font-weight="600" fill="#1A2433">Joonoh Park</text>
+  <text x="28" y="36" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="17" font-weight="600" fill="#C8691C">Integrated M.S./Ph.D. Student</text>
+  <text x="26" y="88" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="44" font-weight="600" letter-spacing="-0.9" fill="#1A2433">Joonoh Park</text>
   <line x1="28" y1="108" x2="860" y2="108" stroke="#C9D3DF" stroke-width="1"/>
-  <text x="28" y="136" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17" font-weight="600" fill="#1A2433">Department of Brain and Cognitive Sciences, Seoul National University</text>
-  <text x="28" y="162" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17" fill="#2E3A4B">Cognitive and Systems Neuroscience Laboratory<tspan fill="#5B6B7F">  ·  </tspan>Advisor: Prof. Sang-Hun Lee</text>
+  <text x="28" y="136" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="17" font-weight="600" fill="#1A2433">Department of Brain and Cognitive Sciences, Seoul National University</text>
+  <text x="28" y="162" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="17" fill="#2E3A4B">Cognitive and Systems Neuroscience Laboratory<tspan fill="#5B6B7F">  ·  </tspan>Advisor: Prof. Sang-Hun Lee</text>
 </svg>

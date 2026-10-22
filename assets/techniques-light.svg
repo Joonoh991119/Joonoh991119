@@ -1,43 +1,43 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="880" height="338" viewBox="0 0 880 338" role="img" aria-label="Techniques — advanced: MATLAB, Bayesian observer models, efficient coding, dimensionality reduction, structural equation modeling, hierarchical Bayesian model fitting, Psychtoolbox; basic: Python, CANN, PyTorch, CNN, fMRI, jsPsych, eye tracking, tES, Claude Code">
-  <text x="0" y="28" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#1A2433">Languages</text>
+  <text x="0" y="28" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="17" font-weight="600" fill="#1A2433">Languages</text>
   <rect x="140.0" y="6" width="97.7" height="32" rx="16" fill="#1D4E89"/>
-  <text x="188.9" y="27.5" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#FFFFFF">MATLAB</text>
+  <text x="188.9" y="27.5" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#FFFFFF">MATLAB</text>
   <rect x="245.7" y="6" width="79.8" height="32" rx="16" fill="#E3E9F0"/>
-  <text x="285.6" y="27.5" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="16" fill="#2E3A4B">Python</text>
-  <text x="0" y="78" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#1A2433">Modeling</text>
+  <text x="285.6" y="27.5" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="16" fill="#2E3A4B">Python</text>
+  <text x="0" y="78" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="17" font-weight="600" fill="#1A2433">Modeling</text>
   <rect x="140.0" y="56" width="182.7" height="32" rx="16" fill="#1D4E89"/>
-  <text x="231.4" y="77.5" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#FFFFFF">Bayesian Observer</text>
+  <text x="231.4" y="77.5" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#FFFFFF">Bayesian Observer</text>
   <rect x="330.7" y="56" width="158.6" height="32" rx="16" fill="#1D4E89"/>
-  <text x="410.0" y="77.5" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#FFFFFF">Efficient Coding</text>
+  <text x="410.0" y="77.5" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#FFFFFF">Efficient Coding</text>
   <rect x="497.3" y="56" width="75.0" height="32" rx="16" fill="#E3E9F0"/>
-  <text x="534.8" y="77.5" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="16" fill="#2E3A4B">CANN</text>
+  <text x="534.8" y="77.5" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="16" fill="#2E3A4B">CANN</text>
   <rect x="580.3" y="56" width="88.5" height="32" rx="16" fill="#E3E9F0"/>
-  <text x="624.5" y="77.5" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="16" fill="#2E3A4B">PyTorch</text>
+  <text x="624.5" y="77.5" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="16" fill="#2E3A4B">PyTorch</text>
   <rect x="676.7" y="56" width="63.5" height="32" rx="16" fill="#E3E9F0"/>
-  <text x="708.5" y="77.5" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="16" fill="#2E3A4B">CNN</text>
-  <text x="0" y="128" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#1A2433">Analysis</text>
+  <text x="708.5" y="77.5" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="16" fill="#2E3A4B">CNN</text>
+  <text x="0" y="128" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="17" font-weight="600" fill="#1A2433">Analysis</text>
   <rect x="140.0" y="106" width="238.4" height="32" rx="16" fill="#1D4E89"/>
-  <text x="259.2" y="127.5" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#FFFFFF">Dimensionality Reduction</text>
+  <text x="259.2" y="127.5" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#FFFFFF">Dimensionality Reduction</text>
   <rect x="386.4" y="106" width="267.1" height="32" rx="16" fill="#1D4E89"/>
-  <text x="519.9" y="127.5" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#FFFFFF">Structural Equation Modeling</text>
+  <text x="519.9" y="127.5" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#FFFFFF">Structural Equation Modeling</text>
   <rect x="140.0" y="146" width="318.2" height="32" rx="16" fill="#1D4E89"/>
-  <text x="299.1" y="167.5" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#FFFFFF">Hierarchical Bayesian Model Fitting</text>
+  <text x="299.1" y="167.5" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#FFFFFF">Hierarchical Bayesian Model Fitting</text>
   <rect x="466.2" y="146" width="62.5" height="32" rx="16" fill="#E3E9F0"/>
-  <text x="497.4" y="167.5" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="16" fill="#2E3A4B">fMRI</text>
-  <text x="0" y="218" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#1A2433">Experiments</text>
+  <text x="497.4" y="167.5" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="16" fill="#2E3A4B">fMRI</text>
+  <text x="0" y="218" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="17" font-weight="600" fill="#1A2433">Experiments</text>
   <rect x="140.0" y="196" width="139.4" height="32" rx="16" fill="#1D4E89"/>
-  <text x="209.7" y="217.5" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#FFFFFF">Psychtoolbox</text>
+  <text x="209.7" y="217.5" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#FFFFFF">Psychtoolbox</text>
   <rect x="287.4" y="196" width="85.6" height="32" rx="16" fill="#E3E9F0"/>
-  <text x="330.2" y="217.5" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="16" fill="#2E3A4B">jsPsych</text>
+  <text x="330.2" y="217.5" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="16" fill="#2E3A4B">jsPsych</text>
   <rect x="380.9" y="196" width="126.0" height="32" rx="16" fill="#E3E9F0"/>
-  <text x="443.9" y="217.5" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="16" fill="#2E3A4B">Eye Tracking</text>
+  <text x="443.9" y="217.5" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="16" fill="#2E3A4B">Eye Tracking</text>
   <rect x="514.9" y="196" width="53.9" height="32" rx="16" fill="#E3E9F0"/>
-  <text x="541.8" y="217.5" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="16" fill="#2E3A4B">tES</text>
-  <text x="0" y="268" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#1A2433">Automation</text>
+  <text x="541.8" y="217.5" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="16" fill="#2E3A4B">tES</text>
+  <text x="0" y="268" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="17" font-weight="600" fill="#1A2433">Automation</text>
   <rect x="140.0" y="246" width="127.0" height="32" rx="16" fill="#E3E9F0"/>
-  <text x="203.5" y="267.5" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="16" fill="#2E3A4B">Claude Code</text>
+  <text x="203.5" y="267.5" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="16" fill="#2E3A4B">Claude Code</text>
   <rect x="0.0" y="300" width="103.4" height="32" rx="16" fill="#1D4E89"/>
-  <text x="51.7" y="321.5" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#FFFFFF">Advanced</text>
+  <text x="51.7" y="321.5" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#FFFFFF">Advanced</text>
   <rect x="111.4" y="300" width="65.6" height="32" rx="16" fill="#E3E9F0"/>
-  <text x="144.2" y="321.5" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" fill="#2E3A4B">Basic</text>
+  <text x="144.2" y="321.5" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="15" fill="#2E3A4B">Basic</text>
 </svg>

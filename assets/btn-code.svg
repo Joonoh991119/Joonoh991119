@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="152" height="28" viewBox="0 0 152 28" role="img" aria-label="Data and code ↗">
   <rect x="0.5" y="0.5" width="151" height="27" rx="13.5" fill="#2C7A7B"/>
   <g fill="none" stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><polyline points="16,9 12,14 16,19"/><polyline points="20.5,9 24.5,14 20.5,19"/></g>
-  <text x="32" y="18.5" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#FFFFFF">Data &amp; code ↗</text>
+  <text x="32" y="18.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#FFFFFF">Data &amp; code ↗</text>
 </svg>

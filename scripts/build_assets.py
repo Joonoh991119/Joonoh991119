@@ -18,7 +18,8 @@ PALETTE = {
                  accent2="#F0A35E", rule="#30363D", card="#161B22", chip_basic="#2A3340",
                  chip_basic_ink="#C9D1D9", chip_adv_ink="#0D1117", chip_adv="#6FA8DC"),
 }
-SANS = "-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif"
+# GitHub's own UI stack, so SVG text matches the README text around it
+SANS = "-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif"
 SERIF = "Georgia, 'Times New Roman', Times, serif"
 WIDTH = 880
 
@@ -49,7 +50,7 @@ def write(name, mode, content):
 def header(c):
     body = f'''  <rect x="0" y="10" width="5" height="160" fill="{c['accent']}"/>
   <text x="28" y="36" font-family="{SANS}" font-size="{LABEL}" font-weight="600" fill="{c['accent2']}">Integrated M.S./Ph.D. Student</text>
-  <text x="26" y="88" font-family="{SANS}" font-size="{NAME}" font-weight="600" fill="{c['ink']}">Joonoh Park</text>
+  <text x="26" y="88" font-family="{SANS}" font-size="{NAME}" font-weight="600" letter-spacing="-0.9" fill="{c['ink']}">Joonoh Park</text>
   <line x1="28" y1="108" x2="{WIDTH - 20}" y2="108" stroke="{c['rule']}" stroke-width="1"/>
   <text x="28" y="136" font-family="{SANS}" font-size="{LABEL}" font-weight="600" fill="{c['ink']}">Department of Brain and Cognitive Sciences, Seoul National University</text>
   <text x="28" y="162" font-family="{SANS}" font-size="{BODY}" fill="{c['body']}">Cognitive and Systems Neuroscience Laboratory<tspan fill="{c['muted']}">  ·  </tspan>Advisor: Prof. Sang-Hun Lee</text>
@@ -60,8 +61,8 @@ def header(c):
 
 
 def section(c, title):
-    body = f'''  <text x="0" y="26" font-family="{SANS}" font-size="{HEAD}" font-weight="600" fill="{c['accent']}">{escape(title)}</text>
-  <line x1="0" y1="38" x2="{WIDTH}" y2="38" stroke="{c['accent']}" stroke-width="1.5"/>
+    body = f'''  <text x="0" y="26" font-family="{SANS}" font-size="{HEAD}" font-weight="600" letter-spacing="-0.2" fill="{c['accent']}">{escape(title)}</text>
+  <line x1="0" y1="38" x2="{WIDTH}" y2="38" stroke="{c['rule']}" stroke-width="1"/>
 '''
     return svg(WIDTH, 44, title, body)
 
@@ -81,7 +82,7 @@ def card(c, icon, label, lines):
     body = f'''  <rect x="0.5" y="0.5" width="{CARD_W - 1}" height="{CARD_H - 1}" rx="10" fill="{c['card']}" stroke="{c['rule']}"/>
   <rect x="0.5" y="16" width="4" height="{CARD_H - 32}" fill="{c['accent']}"/>
   <g transform="translate(20 21)" fill="none" stroke="{c['accent']}" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">{ICONS[icon]}</g>
-  <text x="50" y="37" font-family="{SANS}" font-size="{LABEL}" font-weight="700" fill="{c['accent']}">{escape(label)}</text>
+  <text x="50" y="37" font-family="{SANS}" font-size="{LABEL}" font-weight="600" fill="{c['accent']}">{escape(label)}</text>
   <text x="{CARD_W - 20}" y="37" text-anchor="end" font-family="{SANS}" font-size="{SMALL}" fill="{c['muted']}">browse ↗</text>
 '''
     for i, line in enumerate(lines):
@@ -119,7 +120,7 @@ def chip(c, x, y, label, advanced, size=16):
 def techniques(c):
     body, y, label_w, gap = "", 6, 140, 8
     for name, items in TECH:
-        body += (f'  <text x="0" y="{y + 22}" font-family="{SANS}" font-size="{LABEL}" font-weight="700" '
+        body += (f'  <text x="0" y="{y + 22}" font-family="{SANS}" font-size="{LABEL}" font-weight="600" '
                  f'fill="{c["ink"]}">{name}</text>\n')
         x = label_w
         for label, adv in items:
