@@ -44,18 +44,6 @@ Repositories are labeled by area — click a label to filter.
 >
 > I treat the systematic errors in human magnitude judgments as clues to the underlying computation. Behavioral experiments reveal the errors; cognitive models explain *why* they are a sensible solution; neural models show *how* a brain-like system could produce them.
 
-```mermaid
-flowchart LR
-    B["<b>Human behavior</b><br/>magnitude estimation<br/>size · pitch · time · numerosity · value"]
-    C["<b>Cognitive models</b><br/>Bayesian observer · efficient coding<br/><i>why</i> the errors are rational"]
-    N["<b>Neural models</b><br/>RNN · β-VAE · CNN<br/><i>how</i> a brain could compute it"]
-    B -- "errors to explain" --> C
-    C -- "computations to implement" --> N
-    N -. "predictions to test" .-> B
-    classDef box fill:#F6F8FA,stroke:#57606A,color:#1F2328
-    class B,C,N box
-```
-
 #### 1 · Human behavior — what people do
 
 I measure how people estimate and reproduce magnitudes across dimensions — **size, pitch, time, numerosity, and value** — and look for the regularities in their errors.
@@ -80,16 +68,16 @@ I measure how people estimate and reproduce magnitudes across dimensions — **s
 
 #### 2 · Cognitive models — why the errors make sense
 
-- **Bayesian observer models** — estimates combine a noisy measurement with prior knowledge, and the observer's uncertainty sets how strongly the prior pulls the estimate.
-- **Information-theoretic models** — the brain has limited resources, so it should spend its precision where it matters most (efficient coding).
+- **Bayesian observer models** — humans combine noisy measurements with prior knowledge to produce Bayes-optimal behavior.
+- **Information-theoretic models** — humans produce optimal behavior within the limits of their neural resources (efficient coding).
 
 <sub>Projects: 🔒[boec_simulator](https://github.com/Joonoh991119/boec_simulator) · [boec_review](https://github.com/Joonoh991119/boec_review) · 🔒[boec_hmc](https://github.com/Joonoh991119/boec_hmc) — a combined Bayesian observer + efficient coding (BOEC) framework</sub>
 
 #### 3 · Neural models — how a network could compute it
 
-- **Task-optimized RNNs** — to explain temporal dynamics, such as the accumulation and drift of working memory, and how neural representations align across tasks.<sup>[[1]](#references)</sup><sup>[[3]](#references)</sup><sup>[[4]](#references)</sup>
+- **Task-optimized RNNs** — to explain temporal dynamics, such as the accumulation and drift of working memory, and how neural representations align across contexts.<sup>[[1]](#references)</sup><sup>[[3]](#references)</sup><sup>[[4]](#references)</sup>
 - **Generative models (e.g., β-VAE)** — to learn compressed representations under a resource limit, giving resource-optimal Bayesian models a neural substrate.<sup>[[5]](#references)</sup><sup>[[6]](#references)</sup><sup>[[7]](#references)</sup>
-- **CNNs** — to test whether brain-like magnitude representations emerge from learning alone.
+- **CNNs** — to gain insight into the computation from the representations that emerge through learning.
 
 <a id="references"></a>
 <details>
@@ -113,11 +101,11 @@ I measure how people estimate and reproduce magnitudes across dimensions — **s
 
 | Category | |
 |----------|--------|
-| **Languages** | ![MATLAB](https://img.shields.io/badge/MATLAB-E16737?style=for-the-badge) ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) |
-| **Modeling** | ![Bayesian Observer](https://img.shields.io/badge/Bayesian%20Observer-0A66C2?style=for-the-badge) ![Efficient Coding](https://img.shields.io/badge/Efficient%20Coding-0A66C2?style=for-the-badge) ![CANN](https://img.shields.io/badge/CANN-0A66C2?style=for-the-badge) ![PyTorch](https://img.shields.io/badge/PyTorch-6E7781?style=for-the-badge&logo=pytorch&logoColor=white) ![CNN](https://img.shields.io/badge/CNN-6E7781?style=for-the-badge) |
-| **Analysis** | ![fMRI](https://img.shields.io/badge/fMRI-6E7781?style=for-the-badge) ![Dimensionality Reduction](https://img.shields.io/badge/Dimensionality%20Reduction-1A7F37?style=for-the-badge) ![Structural Equation Modeling](https://img.shields.io/badge/Structural%20Equation%20Modeling-1A7F37?style=for-the-badge) ![Monte Carlo](https://img.shields.io/badge/Monte%20Carlo-1A7F37?style=for-the-badge) |
-| **Experiments** | ![Psychtoolbox](https://img.shields.io/badge/Psychtoolbox-B35900?style=for-the-badge) ![jsPsych](https://img.shields.io/badge/jsPsych-B35900?style=for-the-badge) ![Eye Tracking](https://img.shields.io/badge/Eye%20Tracking-B35900?style=for-the-badge) ![tES](https://img.shields.io/badge/tES-B35900?style=for-the-badge) |
-| **Automation** | [![Claude Code](https://img.shields.io/badge/Claude%20Code-D97757?style=for-the-badge&logo=claude&logoColor=white)](https://github.com/Joonoh991119?tab=repositories&q=topic%3Alab-management) |
+| **Languages** | ![MATLAB](https://img.shields.io/badge/MATLAB-E16737?style=flat-square) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) |
+| **Modeling** | ![Bayesian Observer](https://img.shields.io/badge/Bayesian%20Observer-0A66C2?style=flat-square) ![Efficient Coding](https://img.shields.io/badge/Efficient%20Coding-0A66C2?style=flat-square) ![CANN](https://img.shields.io/badge/CANN-0A66C2?style=flat-square) ![PyTorch](https://img.shields.io/badge/PyTorch-6E7781?style=flat-square&logo=pytorch&logoColor=white) ![CNN](https://img.shields.io/badge/CNN-6E7781?style=flat-square) |
+| **Analysis** | ![fMRI](https://img.shields.io/badge/fMRI-6E7781?style=flat-square) ![Dimensionality Reduction](https://img.shields.io/badge/Dimensionality%20Reduction-1A7F37?style=flat-square) ![Structural Equation Modeling](https://img.shields.io/badge/Structural%20Equation%20Modeling-1A7F37?style=flat-square) ![Hierarchical Bayesian Model Fitting](https://img.shields.io/badge/Hierarchical%20Bayesian%20Model%20Fitting-1A7F37?style=flat-square) |
+| **Experiments** | ![Psychtoolbox](https://img.shields.io/badge/Psychtoolbox-B35900?style=flat-square) ![jsPsych](https://img.shields.io/badge/jsPsych-B35900?style=flat-square) ![Eye Tracking](https://img.shields.io/badge/Eye%20Tracking-B35900?style=flat-square) ![tES](https://img.shields.io/badge/tES-B35900?style=flat-square) |
+| **Automation** | [![Claude Code](https://img.shields.io/badge/Claude%20Code-D97757?style=flat-square&logo=claude&logoColor=white)](https://github.com/Joonoh991119?tab=repositories&q=topic%3Alab-management) |
 
 <sub>Gray = basic proficiency. And, lately, a fair amount of vibe coding.</sub>
 
