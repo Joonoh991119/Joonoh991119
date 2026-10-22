@@ -67,7 +67,7 @@ def section(c, title):
     return svg(WIDTH, 44, title, body)
 
 
-CARD_W, CARD_H = 430, 118
+CARD_W, CARD_H = 360, 92  # tight viewBox so the text renders larger in each half-width cell
 
 # 20x20 line icons
 ICONS = {
@@ -80,13 +80,12 @@ ICONS = {
 
 def card(c, icon, label, lines):
     body = f'''  <rect x="0.5" y="0.5" width="{CARD_W - 1}" height="{CARD_H - 1}" rx="10" fill="{c['card']}" stroke="{c['rule']}"/>
-  <rect x="0.5" y="16" width="4" height="{CARD_H - 32}" fill="{c['accent']}"/>
-  <g transform="translate(20 21)" fill="none" stroke="{c['accent']}" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">{ICONS[icon]}</g>
-  <text x="50" y="37" font-family="{SANS}" font-size="{LABEL}" font-weight="600" fill="{c['accent']}">{escape(label)}</text>
-  <text x="{CARD_W - 20}" y="37" text-anchor="end" font-family="{SANS}" font-size="{SMALL}" fill="{c['muted']}">browse ↗</text>
+  <rect x="0.5" y="12" width="4" height="{CARD_H - 24}" fill="{c['accent']}"/>
+  <g transform="translate(16 14)" fill="none" stroke="{c['accent']}" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">{ICONS[icon]}</g>
+  <text x="44" y="30" font-family="{SANS}" font-size="{LABEL}" font-weight="600" fill="{c['accent']}">{escape(label)}</text>
 '''
     for i, line in enumerate(lines):
-        body += (f'  <text x="22" y="{72 + i * 24}" font-family="{SANS}" font-size="{BODY}" '
+        body += (f'  <text x="16" y="{58 + i * 23}" font-family="{SANS}" font-size="{BODY}" '
                  f'fill="{c["body"]}">{escape(line)}</text>\n')
     return svg(CARD_W, CARD_H, f"{label}: {' '.join(lines)}", body)
 
@@ -94,7 +93,7 @@ def card(c, icon, label, lines):
 CARDS = [
     ("research", "microscope", "personal-research", ["Experimental design, computational", "modeling, and analysis methods"]),
     ("lab", "briefcase", "lab-management", ["AI-powered lab management system", "for CSNL (private)"]),
-    ("auto", "chip", "auto-research", ["AI-powered research automation system,", "built with @ysys143"]),
+    ("auto", "chip", "auto-research", ["AI-powered research automation", "system, built with @ysys143"]),
     ("apps", "grid", "personal-apps", ["Apps for productivity and an", "organized work environment"]),
 ]
 
