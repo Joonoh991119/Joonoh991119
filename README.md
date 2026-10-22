@@ -40,17 +40,22 @@ Repositories are labeled by area — click a label to filter.
 
 ### Research Interests
 
-> **How does the brain estimate magnitudes — and why do those estimates shift with context, history, and how finely a choice is divided?**
->
-> I treat the systematic errors in human magnitude judgments as clues to the underlying computation. Behavioral experiments reveal the errors; cognitive models explain *why* they are a sensible solution; neural models show *how* a brain-like system could produce them.
+> I study how uncertainty in a magnitude estimate is carried through the brain's transformation from **absolute** magnitude (e.g., a duration in seconds) to **relative** magnitude (its position within the current context). Combining psychophysics with Bayesian observer models, I ask whether the brain collapses that uncertainty into a point estimate before or after the transformation.
 
-#### 1 · Human behavior — what people do
+**Human behavior**
+- Magnitude estimation — size, pitch, time, numerosity, value
+- Context-dependent normalization<sup>[[1]](#references)</sup><sup>[[2]](#references)</sup>
+- History effects
+- Granularity effect<sup>[[2]](#references)</sup>
 
-I measure how people estimate and reproduce magnitudes across dimensions — **size, pitch, time, numerosity, and value** — and look for the regularities in their errors.
-
-- **Context-dependent normalization** — the same stimulus is judged differently depending on the range of stimuli it appears among.<sup>[[1]](#references)</sup><sup>[[2]](#references)</sup>
-- **History effects** — earlier stimuli and choices pull current estimates toward them.
-- **Granularity effect** — finer-grained choices attract subsequent ones more strongly.<sup>[[2]](#references)</sup>
+**Computational models**
+- *Cognitive models*
+  - Bayesian observer models — prior knowledge and uncertainty
+  - Information-theoretic models — limited resources of the brain
+- *Neural models*
+  - Task-optimized RNNs — temporal dynamics (e.g., accumulation and drift of working memory), context-dependent neural alignment<sup>[[1]](#references)</sup><sup>[[3]](#references)</sup><sup>[[4]](#references)</sup>
+  - Generative models (e.g., β-VAE) — neural basis for resource-optimal Bayesian models<sup>[[5]](#references)</sup><sup>[[6]](#references)</sup><sup>[[7]](#references)</sup>
+  - CNNs — emergence of brain-like representations
 
 <details>
 <summary><b>Projects by dimension</b> &nbsp;<sub>🔒 = private, available on request</sub></summary>
@@ -66,18 +71,7 @@ I measure how people estimate and reproduce magnitudes across dimensions — **s
 
 </details>
 
-#### 2 · Cognitive models — why the errors make sense
-
-- **Bayesian observer models** — humans combine noisy measurements with prior knowledge to produce Bayes-optimal behavior.
-- **Information-theoretic models** — humans produce optimal behavior within the limits of their neural resources (efficient coding).
-
 <sub>Projects: 🔒[boec_simulator](https://github.com/Joonoh991119/boec_simulator) · [boec_review](https://github.com/Joonoh991119/boec_review) · 🔒[boec_hmc](https://github.com/Joonoh991119/boec_hmc) — a combined Bayesian observer + efficient coding (BOEC) framework</sub>
-
-#### 3 · Neural models — how a network could compute it
-
-- **Task-optimized RNNs** — to explain temporal dynamics, such as the accumulation and drift of working memory, and how neural representations align across contexts.<sup>[[1]](#references)</sup><sup>[[3]](#references)</sup><sup>[[4]](#references)</sup>
-- **Generative models (e.g., β-VAE)** — to learn compressed representations under a resource limit, giving resource-optimal Bayesian models a neural substrate.<sup>[[5]](#references)</sup><sup>[[6]](#references)</sup><sup>[[7]](#references)</sup>
-- **CNNs** — to gain insight into the computation from the representations that emerge through learning.
 
 <a id="references"></a>
 <details>
