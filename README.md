@@ -8,7 +8,7 @@
 
 <br>
 
-<!-- TODO: email badge, e.g. [![Email](https://img.shields.io/badge/you@snu.ac.kr-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:you@snu.ac.kr)&nbsp; -->
+[![Email](https://img.shields.io/badge/joonop99@snu.ac.kr-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:joonop99@snu.ac.kr)&nbsp;
 [![GitHub](https://img.shields.io/badge/GitHub-555555?style=flat-square&logo=github&logoColor=white)](https://github.com/Joonoh991119)&nbsp;
 [![Lab](https://img.shields.io/badge/CSNL-0A66C2?style=flat-square&logoColor=white)](https://snu-csnl.com)
 
