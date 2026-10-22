@@ -12,7 +12,7 @@ OUT.mkdir(exist_ok=True)
 
 PALETTE = {
     "light": dict(ink="#1A2433", body="#2E3A4B", muted="#5B6B7F", accent="#1D4E89",
-                  accent2="#C8691C", rule="#C9D3DF", card="#F4F7FA", chip_basic="#E3E9F0",
+                  accent2="#AD5512", rule="#C9D3DF", card="#F4F7FA", chip_basic="#E3E9F0",
                   chip_basic_ink="#2E3A4B", chip_adv_ink="#FFFFFF", chip_adv="#1D4E89"),
     "dark": dict(ink="#E6EDF3", body="#C9D1D9", muted="#8B98A8", accent="#6FA8DC",
                  accent2="#F0A35E", rule="#30363D", card="#161B22", chip_basic="#2A3340",
@@ -53,7 +53,7 @@ def header(c):
   <text x="26" y="88" font-family="{SANS}" font-size="{NAME}" font-weight="600" letter-spacing="-0.9" fill="{c['ink']}">Joonoh Park</text>
   <line x1="28" y1="108" x2="{WIDTH - 20}" y2="108" stroke="{c['rule']}" stroke-width="1"/>
   <text x="28" y="136" font-family="{SANS}" font-size="{LABEL}" font-weight="600" fill="{c['ink']}">Department of Brain and Cognitive Sciences, Seoul National University</text>
-  <text x="28" y="162" font-family="{SANS}" font-size="{BODY}" fill="{c['body']}">Cognitive and Systems Neuroscience Laboratory<tspan fill="{c['muted']}">  ·  </tspan>Advisor: Prof. Sang-Hun Lee</text>
+  <text x="28" y="162" font-family="{SANS}" font-size="{BODY}" fill="{c['body']}">Cognitive and Systems Neuroscience Laboratory<tspan fill="{c['muted']}">  ·  </tspan>Advisor: Prof. Sang-Hun Lee</text>
 '''
     return svg(WIDTH, 176, "Joonoh Park — Integrated M.S./Ph.D. Student, Department of Brain and Cognitive "
                "Sciences, Seoul National University; Cognitive and Systems Neuroscience Laboratory; "
@@ -61,10 +61,10 @@ def header(c):
 
 
 def section(c, title):
-    body = f'''  <text x="0" y="26" font-family="{SANS}" font-size="{HEAD}" font-weight="600" letter-spacing="-0.2" fill="{c['accent']}">{escape(title)}</text>
-  <line x1="0" y1="38" x2="{WIDTH}" y2="38" stroke="{c['rule']}" stroke-width="1"/>
+    body = f'''  <text x="0" y="42" font-family="{SANS}" font-size="{HEAD}" font-weight="600" letter-spacing="-0.2" fill="{c['accent']}">{escape(title)}</text>
+  <line x1="0" y1="54" x2="{WIDTH}" y2="54" stroke="{c['rule']}" stroke-width="1"/>
 '''
-    return svg(WIDTH, 44, title, body)
+    return svg(WIDTH, 60, title, body)  # 16px top padding = section rhythm
 
 
 CARD_W, CARD_H = 360, 92  # tight viewBox so the text renders larger in each half-width cell
@@ -140,7 +140,7 @@ def techniques(c):
         body += (f'  <text x="{COLS[0]}" y="{base}" font-family="{SANS}" font-size="{BODY}" font-weight="600" '
                  f'fill="{c["ink"]}">{name}</text>\n')
         for i, ln in enumerate(a_lines):
-            col = c["accent"] if adv else c["muted"]
+            col = c["ink"] if adv else c["muted"]  # blue is reserved for links; the dot carries the level
             body += (f'  <text x="{COLS[1]}" y="{base + i * LINE}" font-family="{SANS}" font-size="{BODY}" '
                      f'font-weight="600" fill="{col}">{escape(ln)}</text>\n')
         for i, ln in enumerate(b_lines):
@@ -154,12 +154,14 @@ def techniques(c):
                body)
 
 
-def button(fn, label, icon, fill, w):
-    body = f'''  <rect x="0.5" y="0.5" width="{w - 1}" height="27" rx="13.5" fill="{fill}"/>
-  {icon}
-  <text x="32" y="18.5" font-family="{SANS}" font-size="{SMALL}" font-weight="600" fill="#FFFFFF">{label}</text>
+def button(name, label, icon, fills, w):
+    """Pill button, light + dark variants: fills = {mode: (background, ink)}."""
+    for mode, (fill, ink) in fills.items():
+        body = f'''  <rect x="0.5" y="0.5" width="{w - 1}" height="27" rx="13.5" fill="{fill}"/>
+  {icon.replace("#FFFFFF", ink)}
+  <text x="32" y="18.5" font-family="{SANS}" font-size="{SMALL}" font-weight="600" fill="{ink}">{label}</text>
 '''
-    (OUT / fn).write_text(svg(w, 28, label.replace("&amp;", "and"), body))
+        write(name, mode, svg(w, 28, label.replace("&amp;", "and"), body))
 
 
 SECTIONS = ["Repositories", "Education", "Research Interests", "Techniques",
@@ -180,6 +182,6 @@ if __name__ == "__main__":
               '<line x1="14" y1="16.2" x2="22" y2="16.2"/><line x1="14" y1="18.6" x2="19.5" y2="18.6"/></g>')
     code = ('<g fill="none" stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">'
             '<polyline points="16,9 12,14 16,19"/><polyline points="20.5,9 24.5,14 20.5,19"/></g>')
-    button("btn-poster.svg", "Poster ↗", poster, "#1D4E89", 108)
-    button("btn-code.svg", "Data &amp; code ↗", code, "#2C7A7B", 152)
+    button("btn-poster", "Poster ↗", poster, {"light": ("#1D4E89", "#FFFFFF"), "dark": ("#6FA8DC", "#0D1117")}, 108)
+    button("btn-code", "Data &amp; code ↗", code, {"light": ("#2C7A7B", "#FFFFFF"), "dark": ("#4FB3A9", "#0D1117")}, 152)
     print("\n".join(sorted(p.name for p in OUT.glob("*.svg"))))

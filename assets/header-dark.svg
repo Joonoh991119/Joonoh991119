@@ -4,5 +4,5 @@
   <text x="26" y="88" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="44" font-weight="600" letter-spacing="-0.9" fill="#E6EDF3">Joonoh Park</text>
   <line x1="28" y1="108" x2="860" y2="108" stroke="#30363D" stroke-width="1"/>
   <text x="28" y="136" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="17" font-weight="600" fill="#E6EDF3">Department of Brain and Cognitive Sciences, Seoul National University</text>
-  <text x="28" y="162" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="17" fill="#C9D1D9">Cognitive and Systems Neuroscience Laboratory<tspan fill="#8B98A8">  ·  </tspan>Advisor: Prof. Sang-Hun Lee</text>
+  <text x="28" y="162" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="17" fill="#C9D1D9">Cognitive and Systems Neuroscience Laboratory<tspan fill="#8B98A8">  ·  </tspan>Advisor: Prof. Sang-Hun Lee</text>
 </svg>
